@@ -1,0 +1,16 @@
+[project]
+name = "weibo-archive"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.34.2",
+]
+
+[tool.uv.sources]
+# 使用本地的 debug_tools 模块，而不是第三方包
+
+[tool.uv]
+# 添加项目根目录到 Python 路径
+dev-dependencies = []
